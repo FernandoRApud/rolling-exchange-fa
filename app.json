@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "rolling-exchange-fa",
-    "slug": "rolling-exchange-fa",
+    "name": "Exchange RC",
+    "slug": "Exchange-RC",
     "platforms": [
       "ios",
       "android",
@@ -22,7 +22,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.duendinarco.exchangerc",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.duendinarco.exchangerc",
+      "versionCode": 1
     }
   }
 }
